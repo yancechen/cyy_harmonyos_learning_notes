@@ -11,8 +11,10 @@ HarmonyOS 学习笔记
 - 认识开发工具
 - 了解工程目录结构
 - 运行项目
-3. [应用程序入口—UIAbility的使用](https://developer.huawei.com/consumer/cn/training/course/slightMooc/C101667310940295021?ha_linker=eyJ0cyI6MTY5ODMwODY3MzczOCwiaWQiOiJhNDEzNGMzMzkzNmYwMzJlODA4ZjFiM2Q0YjM3OTg3YyJ9)
+2. [应用程序入口—UIAbility的使用](https://developer.huawei.com/consumer/cn/training/course/slightMooc/C101667310940295021?ha_linker=eyJ0cyI6MTY5ODMwODY3MzczOCwiaWQiOiJhNDEzNGMzMzkzNmYwMzJlODA4ZjFiM2Q0YjM3OTg3YyJ9)
 - UIAbility介绍
 - 页面跳转和参数传递
 - 生命周期
 - 启动模式
+
+3. [ArkTS开发语言介绍](https://developer.huawei.com/consumer/cn/training/course/slightMooc/C101667356568959645?ha_linker=eyJ0cyI6MTY5ODczNTYxNjE1NCwiaWQiOiJhNDEzNGMzMzkzNmYwMzJlODA4ZjFiM2Q0YjM3OTg3YyJ9)
