@@ -59,3 +59,10 @@ struct Index {
 解决方案：build() 里放一个布局组件，比如Row(), Column(), Flex()，然后再添加自定义的组件。
 
 # 3、A page configured in 'main_pages.json' must have one and only one '@Entry' decorator.
+
+问题描述：自定义了一个组件，然后在标记了 @Entry 的 Index 页面里进行了引用，报了该错误。
+
+原因分析：我创建自定义组件的方式是
+
+<img width="520" alt="image" src="https://github.com/yancechen/cyy_harmonyos_learning_notes/assets/19757728/491afcb0-016a-478e-8846-2b5f9d97c8d3">
+
