@@ -62,7 +62,22 @@ struct Index {
 
 问题描述：自定义了一个组件，然后在标记了 @Entry 的 Index 页面里进行了引用，报了该错误。
 
-原因分析：我创建自定义组件的方式是
+原因分析：我创建自定义组件的方式是：new -> Page
 
 <img width="520" alt="image" src="https://github.com/yancechen/cyy_harmonyos_learning_notes/assets/19757728/491afcb0-016a-478e-8846-2b5f9d97c8d3">
+
+创建好以后，会在 `main_pages.json` 里生成自己创建的页面路径：
+
+<img width="401" alt="image" src="https://github.com/yancechen/cyy_harmonyos_learning_notes/assets/19757728/c2a1b62c-aa60-4ff6-8ec6-a2a4d98ad47c">
+
+而 `main_pages.json` 的作用是**配置所有需要进行路由跳转的 page 页面的路由信息**，而我们只是需要一个可以复用的 UI 组件，不是页面，因此，此种创建方式不正确。
+
+解决方案 1：手动删除 `main_pages.json` 的配置
+
+<img width="319" alt="image" src="https://github.com/yancechen/cyy_harmonyos_learning_notes/assets/19757728/b386746c-c7c2-4594-927b-5c4d08124e88">
+
+解决方案 2：创建自定义的组件的方式改为：new -> ArkTS File
+
+<img width="453" alt="image" src="https://github.com/yancechen/cyy_harmonyos_learning_notes/assets/19757728/ff24591d-05df-4938-9429-1f480a16a6c0">
+
 
