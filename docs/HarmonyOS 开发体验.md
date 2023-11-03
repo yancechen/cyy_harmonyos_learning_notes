@@ -44,3 +44,10 @@ Android Studio：
 
 <img width="1519" alt="image" src="https://github.com/yancechen/cyy_harmonyos_learning_notes/assets/19757728/682515d2-8d09-48b2-b859-fd7f743a0aa3">
 
+## 3. 开发者文档频繁提示需要登录
+
+这个体验真的很不好。
+
+首先，浏览开发者文档的内容需要进行登录，然后文档平台的登录态只能保存几个小时。如果你看了文档，然后又去处理其他事情，等你再回来就会让你登录。
+
+而且不会保存你的登录账户，每次都需要重新输入，有点崩溃🤪。
