@@ -21,3 +21,6 @@ HarmonyOS 学习笔记
 3. [ArkTS 开发语言介绍](https://developer.huawei.com/consumer/cn/training/course/slightMooc/C101667356568959645?ha_linker=eyJ0cyI6MTY5ODczNTYxNjE1NCwiaWQiOiJhNDEzNGMzMzkzNmYwMzJlODA4ZjFiM2Q0YjM3OTg3YyJ9)
 
 4. [学习 ArkTS 语言](https://developer.harmonyos.com/cn/docs/documentation/doc-guides-V3/arkts-get-started-0000001504769321-V3?catalogVersion=V3)
+- 基础语法
+- 状态管理
+- 渲染控制
